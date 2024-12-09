@@ -17,7 +17,7 @@ num_workers = 10
 [TOOLS]
 # These are some necessary tools for the conversion.
 # Get dfstool here https://developer.x-plane.com/tools/xptools/
-dsftool = E:\XPL-Tools\xptools_win_23-4\tools\DSFtool.exe
+dsf_tool = E:\XPL-Tools\xptools_win_23-4\tools\DSFtool.exe
 # ... and point this to your 7-Zip utility
 # Linux users: Just specify 7zip=7z
 7zip = C:\Program Files\7-Zip\7z.exe
