@@ -493,6 +493,7 @@ work_dir = CFG["DEFAULTS"]["work_dir"]
 ortho_dir = CFG["DEFAULTS"]["ortho_dir"]
 num_workers = int(CFG["DEFAULTS"]["num_workers"])
 # get pyinstaller fs path
+MEIPASS_PATH = ''
 if hasattr(sys, "_MEIPASS"):
     MEIPASS_PATH = sys._MEIPASS
 # get dsf_tool or default to dsf_tool in pyinstaller bundle
